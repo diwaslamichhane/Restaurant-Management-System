@@ -600,3 +600,161 @@ html, body{
     font-weight: 600;
 }
 
+/* CONTACT SECTION  */
+
+#contact{
+    height: 100%;
+    width: 100%;
+    font-family: poppins;
+    background: url('./assets/try.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#contact .contact_container{
+    height: 100%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 50px;
+}
+#contact .contact_container .contact_booking{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#contact .contact_container .contact_booking .booking_top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#contact .contact_container .contact_booking .booking_top .booking_title{
+    font-size: 64px;
+    font-family: forum;
+    font-weight: 600;
+    /* color: white; */
+}
+#contact .contact_container .contact_booking .booking_top .booking_subTitle{
+    font-size: 16px;
+    font-weight: 600;
+    /* color: white; */
+}
+#contact .contact_container .contact_booking .booking_top .booking_subTitle a{
+    text-decoration: none;
+    color: hsl(38, 61%, 73%);
+}
+
+#contact .contact_container .contact_booking .form-container{
+    margin-top: 40px;
+    max-width: 700px;
+    width: 100%;
+    font-family: poppins;
+}
+#contact .contact_container .contact_booking .form-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+#contact .contact_container .contact_booking .form-container input, .form-container select, .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    background-color: #353536;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: white;
+}
+#contact .contact_container .contact_booking .form-container input:focus, .form-container select:focus, .form-container textarea:focus {
+    border-color: hsl(38, 61%, 73%);
+    outline: none;
+    box-shadow: 0 0 5px #a16e62;
+}
+#contact .contact_container .contact_booking .form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: hsl(38, 61%, 73%);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 500ms ease;
+    font-family: poppins;
+    font-weight: bolder;
+}
+#contact .contact_container .contact_booking .form-container button:hover {
+    background-color: black;
+    border: 2px solid hsl(38, 61%, 73%);
+    color: white;
+    font-family: poppins;
+    font-weight: bolder;
+
+}
+
+#contact .contact_container .contact_info{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 55px;
+    background: url('./assets/footer-form-bg.png');
+ }
+ #contact .contact_container .contact_info .contactTitle{
+    font-size: 64px;
+    font-family: forum;
+    font-weight: 600;
+    line-height: 70px;
+ }
+ #contact .contact_container .contact_info .bookingReq{
+    font-size: 18px;
+    font-weight: bolder;
+ }
+ #contact .contact_container .contact_info .bookingReq a{
+    text-decoration: none;
+    color: hsl(38, 61%, 73%);
+    font-size: 25px;
+ }
+ #contact .contact_container .contact_info .location, .lunchTime, .dinnerTime{
+    font-size: 18px;
+    font-weight: bolder;
+ }
+ #contact .contact_container .contact_info .infoEdit{
+    font-size: 16px;
+    font-weight: normal;
+    color: gray;
+ }
+
+ #contact .contact_container .contact_info .socialMedia{
+    display: flex;
+    font-size: 25px;
+    color: hsl(38, 61%, 73%);
+    gap: 20px;
+    margin-bottom: 8px;
+ }
+ #contact .contact_container .contact_info .socialMedia i{
+    cursor: pointer;
+ }
+ .copyright{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #131112;
+    color: white;
+    font-family: poppins;
+ }
+ .copyright .copyrightEdit{
+    color: hsl(38, 61%, 73%);
+ }
