@@ -297,4 +297,54 @@
         </div>
     </div>
 
+    <!-- CONTACT AND ONLINE RESERVATION SECTION  -->
 
+        <div id="contact">
+            <div class="contact_container">
+                <div class="contact_booking">
+                    <div class="booking_top">
+                        <h1 class="booking_title">Online Reservation</h1>
+                        <p class="booking_subTitle">Booking request <a href="tel:+9779815092222">+9779815092222</a> or fill out the order form</p>
+                    </div>
+                    <div class="form-container">
+                        <form action="create.php" method="post" onsubmit="return validateForm()">
+                            <table>
+                                <tr>
+                                <td><label for="name">Name</label></td>
+                                <td><label for="phone">Phone</label></td>
+                                </tr>
+                                <tr>
+                                <td><input type="text" id="name" name="name" placeholder="Enter your name">
+                                <td><input type="text" id="phone" name="phone" placeholder="Enter your phone number"></td>
+                                </tr>
+                                </table>
+                            <label for="persons">Number of Persons</label>
+                            <select id="persons" name="persons">
+                                <option value="">Select...</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                    
+                            <label for="date">Date</label>
+                            <input type="date" id="date" name="date">
+                    
+                            <label for="time">Time</label>
+                            <input type="time" id="time" name="time">
+                    
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Enter any special requests or message" rows="4"></textarea>
+                    
+                            <button type="submit">BOOK A TABLE</button>
+                        </form>
+                    </div>
+                </div>
+
+                
